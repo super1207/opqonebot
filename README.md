@@ -1,6 +1,6 @@
 # OPQOnebot
 
-继承自[kookonebot](https://github.com/super1207/KookOneBot)，为OPQ实现[onebot11](https://github.com/botuniverse/onebot-11)协议！
+继承自[kookonebot](https://github.com/super1207/KookOneBot)，为[OPQ](https://73s2swxb4k.apifox.cn/doc-2200981)实现[onebot11](https://github.com/botuniverse/onebot-11)协议！
 
 [红色问答](https://github.com/super1207/redreply)、[MiraiCQ](https://github.com/super1207/MiraiCQ) 与此项目配合更佳，欢迎加入为它们创建的QQ群：920220179、556515826
 
