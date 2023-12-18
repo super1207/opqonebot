@@ -1,9 +1,10 @@
 # OPQOnebot
 
+### 注意，[OPQ](https://73s2swxb4k.apifox.cn/doc-2200981)为闭源非官方的QQ协议框架，部分用户数据会经过安全性和稳定性均未知的私人服务器，请不要使用关键账号登录，并且注意网络安全。
+
+### opqonebot不会收集任何用户的隐私数据，也不对因此项目带来的任何损失负责，若您已经明白风险，请继续往下阅读，否则不要使用。
+
 继承自[kookonebot](https://github.com/super1207/KookOneBot)，为[OPQ](https://73s2swxb4k.apifox.cn/doc-2200981)实现[onebot11](https://github.com/botuniverse/onebot-11)协议！
-
-[红色问答](https://github.com/super1207/redreply)、[MiraiCQ](https://github.com/super1207/MiraiCQ) 与此项目配合更佳，欢迎加入为它们创建的QQ群：920220179、556515826
-
 
 ## 配置文件
 
