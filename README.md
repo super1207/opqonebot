@@ -59,11 +59,11 @@ secret：反向http需要的HMAC签名，用来验证上报的数据确实来自
 
 #### send_group_msg 发送群消息
 
-目前支持文字、图片、at、语音(待测试)
+目前支持文字、图片、at、回复、语音(待测试)
 
 #### send_private_msg 发送私聊消息
 
-目前支持文字、图片、语音(待测试)
+目前支持文字、图片、回复、语音(待测试)
 
 #### send__msg 发送消息
 
@@ -77,6 +77,9 @@ secret：反向http需要的HMAC签名，用来验证上报的数据确实来自
 
 #### delete_msg 撤回消息
 
+# get_group_member_list 获取群成员列表
+
+# get_group_member_info 获取群成员列表
 
 ## 事件
 
