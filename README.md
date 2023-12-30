@@ -77,9 +77,9 @@ secret：反向http需要的HMAC签名，用来验证上报的数据确实来自
 
 #### delete_msg 撤回消息
 
-# get_group_member_list 获取群成员列表
+#### get_group_member_list 获取群成员列表
 
-# get_group_member_info 获取群成员列表
+#### get_group_member_info 获取群成员列表
 
 ## 事件
 
