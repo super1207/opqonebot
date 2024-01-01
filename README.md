@@ -81,6 +81,12 @@ secret：反向http需要的HMAC签名，用来验证上报的数据确实来自
 
 #### get_group_member_info 获取群成员列表
 
+#### set_group_ban 禁言
+
+#### set_group_leave 退群 
+
+#### set_group_kick 群组踢人
+
 ## 事件
 
 ### 已实现
