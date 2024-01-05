@@ -79,7 +79,7 @@ secret：反向http需要的HMAC签名，用来验证上报的数据确实来自
 
 #### get_group_member_list 获取群成员列表
 
-#### get_group_member_info 获取群成员列表
+#### get_group_member_info 获取群成员信息
 
 #### set_group_ban 禁言
 
@@ -100,6 +100,10 @@ secret：反向http需要的HMAC签名，用来验证上报的数据确实来自
 目前接收文字、图片、语音(暂时有错)、表情(有略微缺陷)
 
 #### 新人入群
+
+#### 退群
+
+类型均为leave，操作者就是退群者
 
 #### 生命周期
 
