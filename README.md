@@ -59,7 +59,7 @@ secret：反向http需要的HMAC签名，用来验证上报的数据确实来自
 
 #### send_group_msg 发送群消息
 
-目前支持文字、图片、at、回复、语音（支持wav、mp3、flac、silk）、表情(有略微缺陷)
+目前支持文字、图片、at、回复、语音（支持wav、mp3、flac、silk）、表情(有略微缺陷)、拍一拍、json(未测试)、xml(未测试)、文件(发不出来，不知道为啥)
 
 #### send_private_msg 发送私聊消息
 
@@ -87,9 +87,15 @@ secret：反向http需要的HMAC签名，用来验证上报的数据确实来自
 
 #### set_group_kick 群组踢人
 
+#### get_cookies 获取一些可能有用的数据
+
+请自行观察这个api返回了什么东西(clientkey,pskey,gtk,cookies)
+
 #### set_group_add_request 处理加群请求／邀请
 
 #### set_friend_add_request 处理加好友请求
+
+
 
 ## 事件
 
@@ -122,4 +128,3 @@ secret：反向http需要的HMAC签名，用来验证上报的数据确实来自
 #### 心跳
 
 目前固定为5秒一次
-
