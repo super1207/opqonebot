@@ -95,6 +95,8 @@ secret：反向http需要的HMAC签名，用来验证上报的数据确实来自
 
 #### set_friend_add_request 处理加好友请求
 
+#### set_group_special_title 设置群组专属头衔（未测试）
+
 
 
 ## 事件
@@ -128,3 +130,4 @@ secret：反向http需要的HMAC签名，用来验证上报的数据确实来自
 #### 心跳
 
 目前固定为5秒一次
+
