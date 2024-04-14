@@ -59,7 +59,7 @@ secret：反向http需要的HMAC签名，用来验证上报的数据确实来自
 
 #### send_group_msg 发送群消息
 
-目前支持文字、图片、at、回复、语音（支持wav、mp3、flac、silk）、表情(有略微缺陷)、拍一拍、json(未测试)、xml(未测试)、文件(需要特殊设置，见下面的文件发送)
+目前支持文字、图片、at、回复、语音（支持wav、mp3、部分flac、silk）、表情(有略微缺陷)、拍一拍、json(未测试)、xml(未测试)、文件(需要特殊设置，见下面的文件发送)
 
 #### send_private_msg 发送私聊消息
 
@@ -149,7 +149,7 @@ secret：反向http需要的HMAC签名，用来验证上报的数据确实来自
 
 [CQ:file,file=base64://xxxxx,filename=aaa.txt]
 
-如果`opq_onebot.exe`和`OPQBot.exe`在同一个目录下，这不需要任何设置即可发文件。
+如果`opq_onebot.exe`和`OPQBot.exe`在同一个目录下，则不需要任何设置即可发文件。
 
 否则，需要在`opq_onebot.exe`的`config.json`中设置`opq_file_path`,如
 ```
