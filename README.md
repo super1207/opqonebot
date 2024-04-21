@@ -63,7 +63,7 @@ secret：反向http需要的HMAC签名，用来验证上报的数据确实来自
 
 #### send_private_msg 发送私聊消息
 
-目前支持文字、图片、回复、语音（支持wav、mp3、flac、silk）、表情(有略微缺陷)
+目前支持文字、图片、回复、语音（支持wav、mp3、部分flac、silk）、表情(有略微缺陷)
 
 #### send__msg 发送消息
 
@@ -103,7 +103,19 @@ secret：反向http需要的HMAC签名，用来验证上报的数据确实来自
 
 #### get_group_info 获取群信息
 
+#### send_like 点赞
+
+需要有相关事件
+
 #### get_friend_list 获取好友列表（未严格测试）
+
+#### 发送群聊自定义合并转发（仅支持文字和图片）
+
+[https://docs.go-cqhttp.org/api/#发送合并转发-群聊](https://docs.go-cqhttp.org/api/#%E5%8F%91%E9%80%81%E5%90%88%E5%B9%B6%E8%BD%AC%E5%8F%91-%E7%BE%A4%E8%81%8A)
+
+不支持设置name和uin
+
+注意不要一次性发送大量节点，会不安全。
 
 
 ## 事件
@@ -143,11 +155,11 @@ secret：反向http需要的HMAC签名，用来验证上报的数据确实来自
 
 通过CQ码即可发文件，如：
 
-[CQ:file,file=file:///D:\myfile\aaa.txt,filename=aaa.txt]
+[CQ:file,file=file:///D:\myfile\aaa.txt,name=aaa.txt]
 
-[CQ:file,file=http://xxxxx/aaa.txt,filename=aaa.txt]
+[CQ:file,file=http://xxxxx/aaa.txt,name=aaa.txt]
 
-[CQ:file,file=base64://xxxxx,filename=aaa.txt]
+[CQ:file,file=base64://xxxxx,name=aaa.txt]
 
 如果`opq_onebot.exe`和`OPQBot.exe`在同一个目录下，则不需要任何设置即可发文件。
 
