@@ -59,11 +59,11 @@ secret：反向http需要的HMAC签名，用来验证上报的数据确实来自
 
 #### send_group_msg 发送群消息
 
-目前支持文字、图片、at、回复、语音（支持wav、mp3、部分flac、silk）、表情(有略微缺陷)、拍一拍、json(未测试)、xml(未测试)、文件(需要特殊设置，见下面的文件发送)
+目前支持文字、图片、at、回复、语音（支持wav、mp3、部分flac、silk、ogg）、表情(有略微缺陷)、拍一拍、json(未测试)、xml(未测试)、文件(需要特殊设置，见下面的文件发送)、TTS([CQ:tts,text=你好])
 
 #### send_private_msg 发送私聊消息
 
-目前支持文字、图片、回复、语音（支持wav、mp3、部分flac、silk）、表情(有略微缺陷)
+目前支持文字、图片、回复、语音（支持wav、mp3、部分flac、silk、ogg）、表情(有略微缺陷)、TTS([CQ:tts,text=你好])
 
 #### send__msg 发送消息
 
